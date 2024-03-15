@@ -1,0 +1,10 @@
+[Unit]
+Description=MIDI Link Application
+
+[Service]
+ExecStart=/usr/bin/MidiLink
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+

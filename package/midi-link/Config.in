@@ -1,0 +1,9 @@
+config BR2_PACKAGE_MIDI_LINK
+        bool "MIDI Link"
+        select BR2_ALSA_LIB
+        select BR2_PACKAGE_FREETYPE
+        depends on BR2_INSTALL_LIBSTDCPP
+        depends on BR2_TOOLCHAIN_HAS_THREADS
+        depends on BR2_TOOLCHAIN_USES_GLIBC
+        help
+          Ableton Link to MIDI Clock 
