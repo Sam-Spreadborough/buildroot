@@ -2,7 +2,7 @@
 Description=MIDI Link Application
 
 [Service]
-ExecStart=/usr/bin/MidiLink
+ExecStart=/usr/bin/midi-link
 Restart=always
 
 [Install]
